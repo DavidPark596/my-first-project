@@ -1,0 +1,58 @@
+body,ul,h2,p{ margin : 0;
+         padding: 0;}
+
+li{ list-style-type: none;
+
+}
+
+body{ background-color: #111;
+      color: #999;
+}
+
+.wrapper { display: flex;
+           height: 100vh;
+           justify-content: center;
+           align-items: center;}
+
+.team { display: flex;
+        justify-content: center;
+        align-items: center;}
+
+.team-item{ flex-basis: 100px;
+            flex-shrink: 0;
+            margin: 0 10px;
+            transition: all .4s;}
+
+
+.team-item:hover { flex-basis: 160px;
+                  margin: 0 20px;}
+
+.team-item img{ width: 100%;}
+
+.profile { background-color: #222;
+           position: relative;
+           overflow: hidden;}
+
+
+
+.profile_red { color: #ea0f0f;}
+
+.profile_beige { color: blue;}
+
+.profile_green { color: darkslateblue; }
+
+.profile_pink{ color: violet;}
+
+.profile_purple{ color: currentColorc; }
+
+.profile-contents{ position: absolute;
+                   left: 0;
+                   bottom: 0;
+                   padding: 10px;
+                  }
+
+
+.profile-contents h2 { font-size: 10px;}
+
+.profile-contents h2 span { display: block;
+                            font-size: 8px;}
